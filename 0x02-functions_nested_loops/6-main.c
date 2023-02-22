@@ -13,7 +13,7 @@ int main(void)
 	r = _abs(-1);
 	printf("%d\n", r);
 	r = _abs(0);
-	printtf("%d\n", r);
+	printf("%d\n", r);
 	r = _abs(1);
 	printf("%d\n", r);
 	r = _abs(-98);
