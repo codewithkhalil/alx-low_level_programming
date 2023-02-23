@@ -5,21 +5,14 @@
 /**
  * positive_or_negative - main function
  *
+ * @i: the number to be checked
+ *
  * Return: Always 0 (Success)
  */
-int positive_or_negative(void)
+void positive_or_negative(int i)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
+	if (i < 0)
+		printf("%d is negatve\n", i);
 	else
-		printf("%d is negative\n", n);
-
-	return (0);
+		printf("%d is positive\n", i);
 }
